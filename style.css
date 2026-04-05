@@ -190,9 +190,15 @@ body {
     animation: slide-in-from-right-rect 1s ease-in-out;
 }
 
+.no-break {
+    white-space: nowrap;
+}
+
 .label {
     font-size: clamp(14px, 3vw, 20px);
     font-family: 'Arimo';
+    text-align: justify;
+    text-justify: auto;
     color: var(--primary-color);
     animation: slide-in-from-left 1s ease-in-out;
     margin: 50px 0;
